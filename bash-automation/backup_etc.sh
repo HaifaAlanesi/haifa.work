@@ -1,8 +1,8 @@
 #!/bin/bash
 
 SOURCE_DIR="/etc"
-DEST_DIR="$HOME/haifa-solutions/backups"
-LOG_FILE="$HOME/haifa-solutions/backups/backup_history.log"
+DEST_DIR="$HOME/haifa.work/backups"
+LOG_FILE="$HOME/haifa.work/backups/backup_history.log"
 TIMESTAMP=$(date +%Y-%m-%d_%H-%M-%S)
 BACKUP_FILE="etc_backup_$TIMESTAMP.tar.gz"
 
