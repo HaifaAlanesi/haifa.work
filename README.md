@@ -1,35 +1,25 @@
-# Haifa work: DevOps & Infrastructure Lab 🏗️
+# 🚀 Automated GitOps Infrastructure (haifa.work)
 
-This repository is a comprehensive collection of infrastructure and automation tasks for **haifa.work**. It documents my transition from a DBA to a DevOps Engineer, focusing on the "Code-First" approach to system management.
+This project demonstrates a production-ready, automated web architecture using **Terraform** and **AWS**. 
 
-## 📁 Repository Structure
+## 🗺️ Architecture Map
+![Project Architecture](./architecture-map.png)
 
-| Task Folder | Focus Area | Technology |
-|:--- |:--- |:--- |
-| [bash-automation/](./bash-automation) | Linux System Utility | Bash, Cron, Gzip |
-| [infrastructure-iac/](./infrastructure-iac) | Cloud Provisioning | Terraform, AWS |
-| [k8s-orchestration/](./k8s-orchestration) | Container Management | Kubernetes (Upcoming) |
+## 🛠️ Tech Stack
+* **Cloud Provider:** AWS (S3, CloudFront)
+* **Infrastructure as Code:** Terraform
+* **CI/CD:** GitHub Actions
+* **DNS:** GoDaddy
+* **Environment:** Ubuntu Server (Homelab)
 
----
+## 🔒 Key Features
+* **Zero-Touch Deployment:** Any change pushed to the `main` branch is automatically validated and deployed.
+* **State Protection:** Implemented `prevent_destroy` lifecycle guards on critical resources.
+* **Global Delivery:** Content is served via CloudFront Edge locations for low latency.
 
-## 🛠️ Global Technical Stack
-* **OS:** Ubuntu 22.04 LTS (Homelab)
-* **Cloud:** AWS (Free Tier)
-* **IaC:** Terraform
-* **Scripting:** Bash / Shell
-* **Version Control:** Git
+## 📈 Status: [PROD - ACTIVE]
+The site is live and secured at: **haifa.work**
 
----
-
-## 🚀 Active Task Highlights
-
-### 1. Bash Automation
-Automating the boring stuff. This task handles system configuration backups with built-in logic for log rotation and 7-day data retention. It ensures that the "human element" is removed from maintenance.
-
-### 2. Infrastructure as Code (IaC)
-Moving away from the AWS Console. Using Terraform to declare resources as code. This ensures our cloud environment is repeatable, documented, and version-controlled.
-
----
 
 ## 👤 About Me
 I am a former **Database Administrator (DBA)** with 4 years of experience, now specializing in DevOps and Cloud Infrastructure. My goal is to combine my data integrity background with modern CI/CD and automation practices.
