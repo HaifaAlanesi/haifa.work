@@ -33,5 +33,7 @@ jobs:
         run: terraform apply -auto-approve
    
       - name: Sync S3 Bucket
-        run: aws s3 sync ../task-website-hosting/public/ s3://haifa-work-storage/ --delete
+        run: 
+          ls -R ..
+          aws s3 sync ../task-website-hosting/public/ s3://haifa-work-storage/ --delete
 
