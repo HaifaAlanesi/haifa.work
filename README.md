@@ -3,8 +3,7 @@
 This project demonstrates a production-ready, automated web architecture using **Terraform** and **AWS**. 
 
 ## 🗺️ My Junior DevOps Project Architecture
-![Project Map](./junior-architecture%20map.png)
-
+![Architecture Map](infrastructure-iac/junior-architecture%20map.png)
 ## 🛠️ Tech Stack
 * **Cloud Provider:** AWS (S3, CloudFront)
 * **Infrastructure as Code:** Terraform
