@@ -5,6 +5,9 @@
 
 ## 📌 Project Overview
 A production-grade, three-tier web architecture deployed using **Infrastructure as Code (Terraform)**. This project demonstrates high availability, secure VPC design, and automated CI/CD pipelines, verified through local Phoenix homelab testing.
+<img width="1408" height="768" alt="final-multi-terir" src="https://github.com/user-attachments/assets/f748bf62-802f-49ed-abb1-1c587eae261c" />
+
+
 
 ## 🏗️ Architecture Features
 * **VPC Networking:** Public/Private subnet isolation with a verified Internet Gateway (IGW) and custom Route Tables.
