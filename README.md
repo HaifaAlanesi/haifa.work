@@ -33,4 +33,4 @@ A production-grade, three-tier web architecture deployed using **Infrastructure 
 
 ---
 *Note: This project was built for educational purposes and destroyed after verification to follow AWS cost-optimization best practices.*
-[LinkedIn](https://www.linkedin.com/in/HaifaAlanesi) | [Website](https://haifa.work)
+[LinkedIn](https://www.linkedin.com/in/HaifaAlanesi) 
