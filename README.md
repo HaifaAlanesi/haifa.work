@@ -7,8 +7,18 @@
 This project demonstrates a production-grade, three-tier web architecture deployed on AWS. The infrastructure is fully automated using Terraform, focusing on high availability, security isolation, and scalable data persistence. It bridges enterprise database management with modern cloud-native orchestration.
 <img width="1408" height="768" alt="final-multi-terir" src="https://github.com/user-attachments/assets/f748bf62-802f-49ed-abb1-1c587eae261c" />
 
-# Architecture Design
+##🏗️ Architecture Design
 The infrastructure is partitioned into isolated layers to ensure maximum security and fault tolerance:
+
+Networking Layer: A primary VPC containing public subnets for the Load Balancer and private subnets for application nodes.
+
+Database Isolation: A separate, dedicated RDS VPC to house the database tier, ensuring sensitive data is physically and logically isolated from the web tier.
+
+Connectivity: Implemented VPC Peering to allow secure, private communication between the application and database tiers without traversing the public internet.
+
+Compute Layer: Auto-scaling EC2 instances managed by an Application Load Balancer (ALB).
+
+Content Delivery: Integrated AWS CloudFront to provide global low-latency access and an additional layer of edge security.
 
 
 ## 🏗️ Architecture Features
