@@ -33,6 +33,6 @@ This project demonstrates a production-grade, three-tier web architecture deploy
 4. Verify Connectivity: `curl -I http://[ALB-DNS-NAME]/index.php`
 
 ---
-*Note: This project was built for educational purposes and destroyed after verification to follow AWS cost-optimization best practices.*
+
  
 www.linkedin.com/in/haifa-alanesi
